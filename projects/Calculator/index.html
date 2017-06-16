@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Calculator</title>
+    <link type="text/css" rel="stylesheet" href="resources/css/style.css">
+    <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Graduate">
+</head>
+
+<body>
+    <!-- Calculator -->
+    <div class="calculator">
+
+        <!-- Header -->
+        <p class="heading">js.calculator</p>
+        <!-- End of header -->
+
+        <!-- Screen -->
+        <div class="screen">
+            <p id="history">0</p>
+            <p id="input">0</p>
+        </div>
+        <!-- End of screen -->
+
+        <!--Buttons -->
+        <div class="buttons">
+            <div class="row">
+                <button type="button" id="clear">Clear</button>
+                <button type="button" class="operation" id="divide">&divide;</button>
+                <button type="button" class="operation" id="multiply">&times;</button>
+            </div>
+            <div class="row">
+                <button type="button" class="value" id="seven">7</button>
+                <button type="button" class="value" id="eight">8</button>
+                <button type="button" class="value" id="nine">9</button>
+                <button type="button" class="operation" id="minus">-</button>
+            </div>
+            <div class="row">
+                <button type="button" class="value" id="four">4</button>
+                <button type="button" class="value" id="five">5</button>
+                <button type="button" class="value" id="six">6</button>
+                <button type="button" class="operation" id="plus">+</button>
+            </div>
+            <div class="row">
+                <button type="button" class="value" id="one">1</button>
+                <button type="button" class="value" id="two">2</button>
+                <button type="button" class="value" id="three">3</button>
+                <button type="button" id="equal">=</button>
+            </div>
+            <div class="row">
+                <button type="button" class="value" id="zero">0</button>
+                <button type="button" class="value" id="dot">.</button>
+            </div>
+        </div>
+        <!-- End of buttons -->
+    </div>
+    <!-- End of calculator -->
+    <script src="vendors/js/jquery.min.js"></script>
+    <script src="resources/js/script.js"></script>
+</body>
+
+</html>
