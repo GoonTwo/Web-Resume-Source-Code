@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Simon Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Bitter" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="resources/css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="console">
+            <div class="innards">
+                <div id="inner-circle-background">
+                </div>
+                <div id="inner-circle">
+                    <h1>Simon</h1>
+                    <p id="count"><span id="count-number">0</span></p>
+                    <button type="button" class="btn btn-warning" id="start-button"></button>
+                    <button type="button" class="btn btn-info" id="strict-button"></button>
+                    <div id="strict-on-button"></div>
+                    <p id="start-txt">Start</p>
+                    <p id="strict-txt">Strict</p>
+                </div>
+                <div id="green" class="button">
+                </div>
+                <div id="red" class="button">
+                </div>
+                <div id="blue" class="button">
+                </div>
+                <div id="yellow" class="button">
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="copyright">Based on the game Simon&trade; by Hasbro&copy;</p>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="resources/js/script.js"></script>
+</body>
+
+</html>

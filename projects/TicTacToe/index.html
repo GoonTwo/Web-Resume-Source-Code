@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tic-Tac-Toe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Quicksand">
+    <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="vendors/css/animate.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2 id="winner" class="js--winner"></h2>
+        <h1>Tic-Tac-Toe</h1>
+        <div class="main-container">
+            <table>
+                <tr>
+                    <td id="0"></td>
+                    <td id="1" class="vertical"></td>
+                    <td id="2"></td>
+                </tr>
+                <tr>
+                    <td id="3" class="horizontal"></td>
+                    <td id="4" class="vertical horizontal"></td>
+                    <td id="5" class="horizontal"></td>
+                </tr>
+                <tr>
+                    <td id="6"></td>
+                    <td id="7" class="vertical"></td>
+                    <td id="8"></td>
+                </tr>
+            </table>
+            <button type="button" class="btn btn-danger" id="reset">Reset All</button>
+            <div id="starting-choice">
+                <p>would you like to play as X or O?</p>
+                <button type="button" class="btn btn-primary player-choice-x">X</button>
+                <button type="button" class="btn btn-primary player-choice-o">O</button>
+            </div>
+            <p>*Built using the "look ahead" minimax algorithm for creating an unbeatbale opponent</p>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="resources/js/script.js"></script>
+</body>
+
+</html>

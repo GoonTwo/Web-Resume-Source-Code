@@ -1,0 +1,168 @@
+body {
+    background-color: #4a3635;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-wood.png");
+}
+
+/* --- GAME CONSOLE --- */
+
+h1 {
+    position: relative;
+    left: 35px;
+    top: 30px;
+    font-family: 'Bitter', serif;
+    font-weight: 900;
+    font-size: 3em;
+}
+
+.innards {
+    position: relative;
+}
+
+#console {
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    width: 500px;
+    height: 500px;
+    border: thin solid black;
+    border-radius: 500px;
+    top: 100px;
+    left: 500px;
+    background-color: grey;
+}
+
+#inner-circle-background {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 300px;
+    z-index: 1500;
+    left: 125px;
+    top: 125px;
+    background-color: grey;
+}
+
+#inner-circle {
+    position: absolute;
+    width: 225px;
+    height: 225px;
+    border-radius: 300px;
+    z-index: 1500;
+    left: 138px;
+    top: 138px;
+    background-color: white;
+}
+
+/* --- COUNTER --- */
+
+#count {
+    position: absolute;
+    border: thick solid black;
+    left: 60px;
+    top: 90px;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: #570902;
+}
+
+#count-number {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    color: #D11606;
+    font-family: digital;
+    font-size: 2.5em;
+}
+
+
+/* --- GAME POSITIONING --- */
+
+#green,
+#red,
+#blue,
+#yellow {
+    position: absolute;
+    width: 210px;
+    height: 210px;
+    border-radius: 7px;
+}
+
+#green {
+    border-top-left-radius: 210px;
+    left: 25px;
+    top: 25px;
+    background-color: #428F3F;
+}
+
+#red {
+    border-top-right-radius: 210px;
+    left: 265px;
+    top: 25px;
+    background-color: #CC272C;
+}
+
+#blue {
+    border-bottom-right-radius: 210px;
+    left: 265px;
+    top: 265px;
+    background-color: #1B24CC;
+}
+
+#yellow {
+    border-bottom-left-radius: 210px;
+    left: 25px;
+    top: 265px;
+    background-color: #D1B319;
+}
+
+/* --- BUTTONS --- */
+
+#strict-on-button {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: 54px;
+    left: 160px;
+    background-color: #FF7D7B;
+    box-shadow: 0 0 0px #FF0500;
+}
+
+.btn {
+    position: relative;
+    top: 90px;
+    left: 45px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+#start-txt {
+    position: relative;
+    top: 77px;
+    left: 66px;
+}
+
+#strict-txt {
+    position: relative;
+    top: 37px;
+    left: 122px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+/* --- COPYRIGHT --- */
+
+.copyright {
+    color: white;
+    width: 300px;
+    margin: auto;
+}
